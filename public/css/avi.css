@@ -1,0 +1,127 @@
+.maintext
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #01625d;
+    FONT-FAMILY: "tahoma"
+}
+.help
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: green;
+    FONT-FAMILY: "tahoma"
+}
+.title
+{
+    FONT-SIZE: 13pt;
+    COLOR: #deb887;
+    FONT-FAMILY: "tahoma"
+}
+.warning
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #ff7777;
+    FONT-FAMILY: "tahoma";
+    TEXT-DECORATION: none
+}
+
+
+.notactive
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13pt;
+    COLOR: LightGray;
+    FONT-FAMILY: "tahoma";
+    TEXT-DECORATION: none
+}
+
+.active
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13pt;
+    COLOR: #ff7777;
+    FONT-FAMILY: "tahoma";
+    TEXT-DECORATION: none
+}
+
+
+.sn
+{
+    FONT-WEIGHT: 300;
+    FONT-SIZE: 8pt;
+    COLOR: purple;
+    FONT-FAMILY: CountryBlueprint;
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none
+}
+.xn
+{
+    FONT-WEIGHT: 300;
+    FONT-SIZE: 8pt;
+    COLOR: yellow;
+    FONT-FAMILY: CityBlueprint;
+    TEXT-DECORATION: none
+}
+.draft
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 6pt;
+    COLOR: #ff7777;
+    FONT-FAMILY: "tahoma";
+    TEXT-DECORATION: none
+}
+.STATUS
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: lightgoldenrodyellow;
+    FONT-FAMILY: "tahoma";
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none
+}
+.hello
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16pt;
+    COLOR: #dc143c;
+    FONT-FAMILY: "tahoma"
+}
+.list
+{
+    FONT-WEIGHT: bold;
+    COLOR: navy
+}
+.eu
+{
+    FONT-WEIGHT: bold;
+    COLOR: white
+}
+.Info
+{
+    FONT-WEIGHT: bold;
+    COLOR: navy
+}
+.stext
+{
+    FONT-WEIGHT: bold;
+    COLOR: navy
+}
+.MENUBAR
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: indigo;
+    FONT-FAMILY: CountryBlueprint;
+    BACKGROUND-COLOR: darkseagreen
+}
+.NAV
+{
+    BACKGROUND-COLOR: navy
+}
+.item
+{
+    COLOR: peru;
+    FONT-STYLE: italic
+}

@@ -1,0 +1,112 @@
+<html>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/ui-lightness/jquery-ui-1.9.2.custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/avi.css" />
+<script language='javascript' type='text/javascript'  src='jsLibs/jquery-1.10.2.min.js'></script>
+<script language='javascript' type='text/javascript'  src='jsLibs/jquery-ui-1.9.2.custom.js'></script>
+<script language='javascript' type='text/javascript' src='jsLibs/webchat.js'></script>
+
+<body onload="init()" onUnLoad="exit();">
+
+<center>
+
+<div id="main">
+
+<table border=0>
+
+<tr>
+<td></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;<img id="openerq" onclick='$("#msg").dialog("open")' src="images/speech-bubble-dots-outline.png"/></td>
+<td>
+<div id="loginview">&nbsp;&nbsp;&nbsp;<a href="javascript:startlogin()">Login</a></div>
+<div id="loginform">&nbsp;&nbsp;&nbsp;<form name="login" action="javascript:login()"><input name="login" type="textfield" size="30" /><input type="submit" value="Login" /> </form></div>
+<table><tr><td><div id="logintitle"></div></td><td><div id="exitview">&nbsp;&nbsp;&nbsp;<a href="javascript:exit()">Exit</a></div></td>
+<td><div id="printview">&nbsp;&nbsp;&nbsp;<a href="javascript:print()">Print</a></div></td>
+
+</tr></table>
+</td>
+
+</tr>
+</table>
+
+
+<table width="100%">
+
+<tr>
+<td align=left>
+<div id="userlist">
+
+
+
+
+</div>
+</td>
+
+<td>
+<div id="infoline">
+</div>
+</td>
+</tr>
+</table>
+
+
+
+</center>
+ 
+</div>
+
+<center>
+
+<div id="dialogPrintView" title="Print View Message/Document.">
+<div id="PrintView"> 
+
+<DIV ID="PGRAPH" style="width:800px;height:480px;" align="center">
+
+              <table width="100%" height="100%" border=0>
+              <tr><td>
+              <canvas id="graphis_cnv" height="480" width="800">
+              </canvas>
+              </td></tr></table>
+
+</DIV>
+
+</div>
+<button type="button" onClick="printAndExit()">PrintAndExit</button>
+</div>
+
+<div id="msg" title="Message.">
+<table width="100%">
+<tr><td width="100%" align="right"><img src="images/upload-72.png" onclick="attachfile();" /></td></tr>
+<tr><td>
+<div id="formid">
+<form  action="javascript:send_message()" name="formid">
+<input type="hidden" name="idroot" value="0"/>
+<input type="hidden" name="idmsg" value="0"/>
+<input type="hidden" name="login" value="*"/>
+<input type="hidden" name="to" value="*"/>
+<table>
+
+<tr><td colspan=2><textarea type="textfield" name="msg" cols=40 rows=10> </textarea></td></tr>
+<tr><td></td><td></td></tr>
+</table>
+</form>
+
+</td></tr></table>
+
+</div>
+</div>
+
+<div id="msgForm" style="display:none">
+</div>
+
+<div id="msgline"> 
+</div> 
+
+</center>
+
+</body>
+
+
+</html>

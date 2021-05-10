@@ -1,0 +1,27 @@
+.title
+{
+    FONT-SIZE: 13pt;
+    COLOR: #deb887;
+    FONT-FAMILY: "tahoma"
+}
+.item
+{
+    COLOR: indigo;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 6pt;
+    FONT-STYLE: italic
+}
+
+.del {
+width:100%; height:10px; background-image:url('bg.gif'); background-repeat: repeat-x;
+}
+
+.warning
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #ff7777;
+    FONT-FAMILY: "tahoma";
+    TEXT-DECORATION: none
+}
+
